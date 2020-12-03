@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Flappy-Bird</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light head-nav static-top">
+    <div class="container">
+      <a class="navbar-brand text" href="#">
+       < Back
+      </a>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <img class="asset" src="assets/bird.png" />
+    <img class="asset" src="assets/cloud.png" />
+    <img class="asset" src="assets/ground.png" />
+    <img class="asset" src="assets/pipe.png" />
+    <canvas width="800" height="500" id="canvas" tabindex="1" style="border: 2px solid #5D5D5D;"></canvas>
+  </div>
+
+  <!--Footer-->
+  <footer>
+    <div class="container">
+      <div class="cover">
+        <p class="text pad-text">Author: AnR-Lin</p>
+      </div>
+    </div>
+  </footer>
+
+  <!--Chat Me-->
+	<div id="open" class="shadow-sm rounded-circle open-bottom-right"><img src="img/whatsapp.png" width="70"></div>
+	<div id="form" class="card shadow-sm border-0 radius-0 form-bottom-right d-none">
+		<div class="border-me bg-me text-white">
+			<span class="text-dr">Chat Me on Whatsapp</span>
+			<span id="close" class="float-right text-dr">X</span>
+		</div>
+		<div class="card-body bg-light pb-0">
+			<div class="form-group">
+				<div class="eksperiment text">Assalamu'alaikum...</div>
+			</div>
+		</div>
+		<div class="border-me bg-white">
+			<div class="input-group flex-nowrap">
+				<textarea id="message" class="eksperiment" autofocus></textarea>
+				<div class="input-group-prepend">
+					<span class="input-group-text bg-transparent border-0 text" id="send">Send</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/class.js"></script>
+  <script src="js/game.js"></script>
+
+</body>
+
+</html>

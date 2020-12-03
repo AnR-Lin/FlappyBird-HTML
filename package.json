@@ -1,0 +1,27 @@
+{
+    "title": "Flappy Bird Html",
+    "name": "flappybird",
+    "version": "0.1.0",
+    "scripts": {
+        "start": "node_modules/.bin/gulp watch"
+    },
+    "description": "Game HTML Flappy Bird",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "dependencies": {
+        "bootstrap": "4.5.3",
+        "jquery": "3.5.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.13",
+        "del": "6.0.0",
+        "gulp": "4.0.2",
+        "merge-stream": "2.0.0"
+    }
+}
